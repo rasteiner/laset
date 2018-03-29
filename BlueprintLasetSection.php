@@ -3,6 +3,10 @@
 namespace Kirby\Cms;
 
 class BlueprintLasetSection extends BlueprintSection {
+    public function errors() {
+        return [];
+    }
+    
     public function toArray(): array
     {
         if($this->modelType() !== 'page') {
