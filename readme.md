@@ -15,3 +15,16 @@ sections:
     type: laset
 ```
 
+# Edit and build this project
+
+install poi:
+
+```bash
+npm i -g poi
+```
+
+being in the plugin folder folder, run:
+
+```bash
+poi build
+```
